@@ -1,11 +1,10 @@
 package main
 
 import (
-	"flash-card-language-learning/handlers"
-	errorwrapper "flash-card-language-learning/pkg/errorWrapper"
-
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+	"github.com/phonghaido/flash-card-language-learning/handlers"
+	errorwrapper "github.com/phonghaido/golang-shared-libs/pkg/errorWrapper"
 )
 
 func main() {

@@ -1,10 +1,10 @@
-module flash-card-language-learning
+module github.com/phonghaido/flash-card-language-learning
 
 go 1.22.2
 
 require (
 	github.com/labstack/echo/v4 v4.12.0
-	github.com/sirupsen/logrus v1.9.3
+	github.com/phonghaido/golang-shared-libs v0.0.0-20240622125336-12bd4c007b38
 )
 
 require (
